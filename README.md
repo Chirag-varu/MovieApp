@@ -1,4 +1,7 @@
 <div align="center">
+  <h3>🎬 Bollywood Movie Finder App</h3>
+  <p>Built using Expo, TypeScript, Tailwind CSS, and Appwrite</p>
+
   <div>
     <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logo=react&color=61DAFB" />
     <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logo=expo&color=000020" />
@@ -6,9 +9,6 @@
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&color=06B6D4" />
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logo=appwrite&color=F02E65" />
   </div>
-
-  <h3>🎬 Bollywood Movie Finder App</h3>
-  <p>Built using Expo, TypeScript, Tailwind CSS, and Appwrite</p>
 </div>
 
 ---
