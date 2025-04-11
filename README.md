@@ -1,58 +1,146 @@
-# Welcome to your Expo app 👋
+```
+<div align="center">
+  <br />
+  <img src="https://github.com/user-attachments/assets/0cb17079-9b42-4a6f-9023-d82642fff73b" alt="Project Banner" />
+  <br />
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  <div>
+    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logo=react&color=61DAFB" />
+    <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logo=expo&color=000020" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logo=typescript&color=3178C6" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&color=06B6D4" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logo=appwrite&color=F02E65" />
+  </div>
 
----
-
-## Get started
-
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+  <h3>🎬 Bollywood Movie Finder App</h3>
+  <p>Built using Expo, TypeScript, Tailwind CSS, and Appwrite</p>
+</div>
 
 ---
 
-## Get a fresh project
+## 📽️ About the Project
 
-When you're ready, run:
+This is a feature-rich movie browsing app built with React Native and powered by the TMDB API. It’s optimized to help users discover both Bollywood and Indian cinema content, with an enhanced UI and a trending movie algorithm using Appwrite.
+
+---
+
+## ⚙️ Tech Stack
+
+- ✅ **React Native** via Expo
+- 🟦 **TypeScript**
+- 💅 **Tailwind CSS** (NativeWind)
+- 🧠 **Appwrite** for backend services
+- 🎞️ **TMDB API** for movie data
+
+---
+
+## 🔥 Features
+
+- 🔍 **Search** for Bollywood & Indian movies
+- 🏠 **Home screen** with featured & trending titles
+- 📊 **Popularity algorithm** powered by Appwrite
+- 🧠 **Real-time data fetching**
+- 💡 **Responsive UI** and clean animations
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- [Node.js](https://nodejs.org)
+- [npm](https://npmjs.com)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/)
+- A TMDB and Appwrite account
+
+### 📁 Clone the Repo
 
 ```bash
-npm run reset-project
+git clone https://github.com/your-username/bollywood-movie-app.git
+cd bollywood-movie-app
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🔧 Install Dependencies
+
+```bash
+npm install
+```
+
+### 🔑 Add Environment Variables
+
+Create a `.env` file in the root:
+
+```env
+EXPO_PUBLIC_MOVIE_API_KEY=your_tmdb_key
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=your_project_id
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=your_database_id
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=your_collection_id
+```
+
+### ▶️ Start the App
+
+```bash
+npx expo start
+```
+
+Scan the QR code using Expo Go on your mobile device.
 
 ---
 
-## Learn more
+## 📁 Folder Structure
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
+.
+├── app/
+├── components/
+├── constants/
+├── hooks/
+├── interfaces/
+├── lib/
+├── screens/
+└── tailwind.config.js
+```
 
 ---
 
-## Join the community
+## 🧩 Code Snippet - Tailwind Config
 
-Join our community of developers creating universal apps.
+```js
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./app/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  presets: [require("nativewind/preset")],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#030014",
+        secondary: "#151312",
+        text: "#9CA4AB",
+        darkAccent: "#AB8BFF",
+        accentText: "#A8B5DB",
+      },
+    },
+  },
+};
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🧠 Credit
+
+This app is inspired by the tutorial from [JavaScript Mastery](https://www.youtube.com/@javascriptmastery/videos). Big thanks to their team for the detailed breakdown and UI inspiration.
+
+---
+
+## 📸 Screenshots
+
+_Add some cool app screenshots here later!_
+
+---
+
+## 📬 Contact
+
+Built by [**Chirag Varu**](https://github.com/Chirag-varu) 🚀  
+Let's connect on [Instagram](https://instagram.com/) or [LinkedIn](https://linkedin.com/)!
+
+---
