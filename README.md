@@ -1,8 +1,4 @@
 <div align="center">
-  <br />
-  <img src="https://github.com/user-attachments/assets/0cb17079-9b42-4a6f-9023-d82642fff73b" alt="Project Banner" />
-  <br />
-
   <div>
     <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logo=react&color=61DAFB" />
     <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logo=expo&color=000020" />
@@ -55,8 +51,8 @@ This is a feature-rich movie browsing app built with React Native and powered by
 ### 📁 Clone the Repo
 
 ```bash
-git clone https://github.com/your-username/bollywood-movie-app.git
-cd bollywood-movie-app
+git clone https://github.com/Chirag-varu/MovieApp.git
+cd MovieApp
 ```
 
 ### 🔧 Install Dependencies
@@ -133,13 +129,15 @@ This app is inspired by the tutorial from [JavaScript Mastery](https://www.youtu
 
 ## 📸 Screenshots
 
-_Add some cool app screenshots here later!_
+![WhatsApp Image 2025-04-11 at 11 20 59 AM](https://github.com/user-attachments/assets/7daec73a-7232-4047-8ad7-55a2bc30d37e)
+![WhatsApp Image 2025-04-11 at 11 20 59 AM (1)](https://github.com/user-attachments/assets/96f675d4-079b-4a18-a691-9fab58306783)
+![WhatsApp Image 2025-04-11 at 11 20 59 AM (2)](https://github.com/user-attachments/assets/56d0f59f-258e-4bc6-8aa9-47c0f6b77336)
 
 ---
 
 ## 📬 Contact
 
 Built by [**Chirag Varu**](https://github.com/Chirag-varu) 🚀  
-Let's connect on [Instagram](https://instagram.com/) or [LinkedIn](https://linkedin.com/)!
+Let's connect on [Instagram](https://instagram.com/) or [LinkedIn](https://www.linkedin.com/in/chiragvaru03/)!
 
 ---
